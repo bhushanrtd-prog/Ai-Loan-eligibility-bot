@@ -1,0 +1,627 @@
+{
+  "users": {
+    "user_b7ad72": {
+      "user_id": "user_b7ad72",
+      "name": "Priya Nair",
+      "email": "priya.nair@example.com",
+      "occupation": "Financial Analyst",
+      "created_at": "2026-09-30T17:59:13.014120"
+    },
+    "user_14cd33": {
+      "user_id": "user_14cd33",
+      "name": "Priya Nair",
+      "email": "priya.nair@example.com",
+      "occupation": "Financial Analyst",
+      "created_at": "2026-09-30T17:59:34.157695"
+    }
+  },
+  "records": [
+    {
+      "id": "9590e78b",
+      "user_id": "user_b7ad72",
+      "type": "AI Advice",
+      "summary": "Based on a monthly income of \u20b990,000 and existing debt of \u20b912,000 (DTI: 13.3%), your financial profile shows resilient borrowing capacity. R...",
+      "result_badge": "Generated",
+      "badge_color": "purple",
+      "data": {
+        "financial_summary": "Based on a monthly income of \u20b990,000 and existing debt of \u20b912,000 (DTI: 13.3%), your financial profile shows resilient borrowing capacity. Reviewing repayment tenure and existing commitments is advised prior to formal application.",
+        "key_strengths": [
+          "Strong credit score of 750, placing you in prime borrowing territory.",
+          "Healthy current Debt-to-Income ratio (13.3%), leaving capacity for strategic leverage.",
+          "Commendable cash flow surplus of ~53.3% after expenses and debt servicing."
+        ],
+        "areas_needing_attention": [
+          "Maintaining vigilance on recurring discretionary expenditures."
+        ],
+        "practical_suggestions": [
+          "Establish an emergency fund equivalent to 6 months of mandatory living expenses before taking new credit.",
+          "Maintain credit card utilization strictly under 30% on each billing cycle to protect your score.",
+          "Compare interest offers (fixed vs. floating) and inquire about prepayment penalty waivers.",
+          "Avoid making multiple simultaneous loan applications to prevent inquiry clustering."
+        ],
+        "questions_before_borrowing": [
+          "How secure is your primary income source over the proposed loan tenure?",
+          "Will your monthly budget remain resilient if inflation or unexpected healthcare costs increase?",
+          "Could you accelerate repayment through bonuses or annual tax refunds?",
+          "Have you accounted for ancillary costs like processing fees, stamp duty, and loan insurance?"
+        ],
+        "source": "educational-engine (API key optional)",
+        "timestamp": "2026-09-30T18:26:30.772045",
+        "saved_to_sheets": false
+      },
+      "timestamp": "2026-09-30T18:26:30.772045"
+    },
+    {
+      "id": "bf571645",
+      "user_id": "user_b7ad72",
+      "type": "Loan Eligibility",
+      "summary": "Eligible - Est Loan: \u20b91,000,000 | EMI: \u20b921,002",
+      "result_badge": "Low Risk",
+      "badge_color": "success",
+      "data": {
+        "eligible": true,
+        "estimated_loan_amount": 1000000.0,
+        "estimated_emi": 21001.86,
+        "dti": 14.12,
+        "foir": 38.83,
+        "net_disposable_income": 26998.14,
+        "risk_level": "Low",
+        "max_eligible_emi": 34750.0,
+        "approval_probability_percent": 92.0,
+        "reasons": [
+          "Combined debt obligations (FOIR: 38.83%) are well within the recommended limit of 55%.",
+          "Excellent credit score (760) satisfies prime underwriting guidelines.",
+          "Comfortable post-EMI disposable surplus of \u20b926,998.14 per month.",
+          "Stable employment profile with 3.5 years in Salaried."
+        ],
+        "recommendations": [
+          "Maintain timely EMI payments to preserve your favorable borrowing terms.",
+          "Compare offers across multiple lenders to negotiate processing fee waivers."
+        ],
+        "factors": {
+          "monthly_income": 85000.0,
+          "existing_monthly_debt": 12000.0,
+          "estimated_emi": 21001.86,
+          "dti_percent": 14.12,
+          "foir_percent": 38.83,
+          "benchmark_max_foir": 55.0,
+          "net_disposable_income": 26998.14,
+          "risk_score_points": 0,
+          "borrower_end_age": 35.0
+        },
+        "timestamp": "2026-09-30T18:26:22.998747",
+        "saved_to_sheets": false
+      },
+      "timestamp": "2026-09-30T18:26:22.998747"
+    },
+    {
+      "id": "ffacb588",
+      "user_id": "user_b7ad72",
+      "type": "Credit Analysis",
+      "summary": "Score: 810 (Excellent) | Utilization: 12.0%",
+      "result_badge": "Excellent",
+      "badge_color": "success",
+      "data": {
+        "credit_score": 810,
+        "credit_health_category": "Excellent",
+        "rating_color": "#06b6d4",
+        "credit_utilization_percent": 12.0,
+        "dti": 6.67,
+        "payment_history_percent": 100.0,
+        "key_factors": [
+          {
+            "name": "Payment History",
+            "impact": "High Positive",
+            "status": "Exceptional",
+            "description": "Your on-time payment track record is stellar (100.0%). This forms ~35% of traditional credit scoring.",
+            "recommendation": "Keep automated payments active so you never miss a billing due date."
+          },
+          {
+            "name": "Credit Card Utilization",
+            "impact": "High Positive",
+            "status": "Optimal",
+            "description": "Using only 12.0% of your revolving limit. Lenders view this as disciplined credit management.",
+            "recommendation": "Maintain utilization under 30% across all individual cards and total limits."
+          },
+          {
+            "name": "Recent Inquiries",
+            "impact": "Positive",
+            "status": "Low Activity",
+            "description": "0 inquiry in recent months. Shows you are not rate-shopping frantically.",
+            "recommendation": "Only apply for fresh credit lines when genuinely necessary."
+          },
+          {
+            "name": "Credit Mix & Accounts",
+            "impact": "Positive",
+            "status": "Balanced",
+            "description": "Active mix of 3 cards and 1 loans shows manageable variety.",
+            "recommendation": "Keep oldest credit accounts open to preserve average account age."
+          }
+        ],
+        "summary": "Your credit profile sits in the Excellent category with a score of 810. Payment reliability is at 100.0% with a credit utilization of 12.0%. Overall credit health indicates strong eligibility potential for prime interest rates.",
+        "strengths": [
+          "Impeccable on-time payment record (100.0%)",
+          "Very low credit utilization (12.0%), demonstrating low dependency on revolving credit.",
+          "Minimal hard inquiries in the past year.",
+          "Healthy and manageable active credit footprint (4 active accounts)."
+        ],
+        "areas_for_improvement": [
+          "Continue maintaining disciplined payment habits."
+        ],
+        "simulation_tips": [
+          "Keep credit cards with long histories open to maximize average account age.",
+          "Review your credit report annually for erroneous reporting or duplicate loan entries.",
+          "Strive to pay total statement balances rather than minimum dues to eliminate revolving interest."
+        ],
+        "timestamp": "2026-09-30T18:13:31.282266",
+        "saved_to_sheets": false
+      },
+      "timestamp": "2026-09-30T18:13:31.282266"
+    },
+    {
+      "id": "ce699121",
+      "user_id": "user_b7ad72",
+      "type": "Loan Eligibility",
+      "summary": "Eligible - Est Loan: \u20b92,500,000 | EMI: \u20b939,591",
+      "result_badge": "Low Risk",
+      "badge_color": "success",
+      "data": {
+        "eligible": true,
+        "estimated_loan_amount": 2500000.0,
+        "estimated_emi": 39591.21,
+        "dti": 10.0,
+        "foir": 36.39,
+        "net_disposable_income": 60408.79,
+        "risk_level": "Low",
+        "max_eligible_emi": 75000.0,
+        "approval_probability_percent": 92.0,
+        "reasons": [
+          "Combined debt obligations (FOIR: 36.39%) are well within the recommended limit of 60%.",
+          "Excellent credit score (810) satisfies prime underwriting guidelines.",
+          "Comfortable post-EMI disposable surplus of \u20b960,408.79 per month.",
+          "Stable employment profile with 5.0 years in Salaried."
+        ],
+        "recommendations": [
+          "Maintain timely EMI payments to preserve your favorable borrowing terms.",
+          "Compare offers across multiple lenders to negotiate processing fee waivers."
+        ],
+        "factors": {
+          "monthly_income": 150000.0,
+          "existing_monthly_debt": 15000.0,
+          "estimated_emi": 39591.21,
+          "dti_percent": 10.0,
+          "foir_percent": 36.39,
+          "benchmark_max_foir": 60.0,
+          "net_disposable_income": 60408.79,
+          "risk_score_points": 0,
+          "borrower_end_age": 40.0
+        },
+        "timestamp": "2026-09-30T18:11:30.938225",
+        "saved_to_sheets": false
+      },
+      "timestamp": "2026-09-30T18:11:30.938225"
+    },
+    {
+      "id": "d37f684d",
+      "user_id": "test_user",
+      "type": "Loan Eligibility",
+      "summary": "Eligible - Est Loan: \u20b9800,000 | EMI: \u20b920,003",
+      "result_badge": "Low Risk",
+      "badge_color": "success",
+      "data": {
+        "eligible": true,
+        "estimated_loan_amount": 800000.0,
+        "estimated_emi": 20003.14,
+        "dti": 8.42,
+        "foir": 29.48,
+        "net_disposable_income": 41996.86,
+        "risk_level": "Low",
+        "max_eligible_emi": 44250.0,
+        "approval_probability_percent": 92.0,
+        "reasons": [
+          "Combined debt obligations (FOIR: 29.48%) are well within the recommended limit of 55%.",
+          "Excellent credit score (760) satisfies prime underwriting guidelines.",
+          "Comfortable post-EMI disposable surplus of \u20b941,996.86 per month.",
+          "Stable employment profile with 3.0 years in Salaried."
+        ],
+        "recommendations": [
+          "Maintain timely EMI payments to preserve your favorable borrowing terms.",
+          "Compare offers across multiple lenders to negotiate processing fee waivers."
+        ],
+        "factors": {
+          "monthly_income": 95000.0,
+          "existing_monthly_debt": 8000.0,
+          "estimated_emi": 20003.14,
+          "dti_percent": 8.42,
+          "foir_percent": 29.48,
+          "benchmark_max_foir": 55.0,
+          "net_disposable_income": 41996.86,
+          "risk_score_points": 0,
+          "borrower_end_age": 34.0
+        },
+        "timestamp": "2026-09-30T17:59:34.139159",
+        "saved_to_sheets": false
+      },
+      "timestamp": "2026-09-30T17:59:34.139159"
+    },
+    {
+      "id": "56bd6854",
+      "user_id": "test_user",
+      "type": "Credit Analysis",
+      "summary": "Score: 750 (Very Good) | Utilization: 22.5%",
+      "result_badge": "Very Good",
+      "badge_color": "success",
+      "data": {
+        "credit_score": 750,
+        "credit_health_category": "Very Good",
+        "rating_color": "#10b981",
+        "credit_utilization_percent": 22.5,
+        "dti": 20.0,
+        "payment_history_percent": 98.0,
+        "key_factors": [
+          {
+            "name": "Payment History",
+            "impact": "High Positive",
+            "status": "Exceptional",
+            "description": "Your on-time payment track record is stellar (98.0%). This forms ~35% of traditional credit scoring.",
+            "recommendation": "Keep automated payments active so you never miss a billing due date."
+          },
+          {
+            "name": "Credit Card Utilization",
+            "impact": "Neutral",
+            "status": "Moderate",
+            "description": "Utilization is at 22.5%. It is within normal boundaries but approaching the 30% benchmark.",
+            "recommendation": "Aim to pay down card balances before the statement generation date."
+          },
+          {
+            "name": "Recent Inquiries",
+            "impact": "Positive",
+            "status": "Low Activity",
+            "description": "1 inquiry in recent months. Shows you are not rate-shopping frantically.",
+            "recommendation": "Only apply for fresh credit lines when genuinely necessary."
+          },
+          {
+            "name": "Credit Mix & Accounts",
+            "impact": "Positive",
+            "status": "Balanced",
+            "description": "Active mix of 3 cards and 2 loans shows manageable variety.",
+            "recommendation": "Keep oldest credit accounts open to preserve average account age."
+          }
+        ],
+        "summary": "Your credit profile sits in the Very Good category with a score of 750. Payment reliability is at 98.0% with a credit utilization of 22.5%. Overall credit health indicates strong eligibility potential for prime interest rates.",
+        "strengths": [
+          "Impeccable on-time payment record (98.0%)",
+          "Minimal hard inquiries in the past year.",
+          "Healthy and manageable active credit footprint (5 active accounts)."
+        ],
+        "areas_for_improvement": [
+          "Continue maintaining disciplined payment habits."
+        ],
+        "simulation_tips": [
+          "Ask card issuers for an eligible credit limit increase without taking a hard inquiry to reduce utilization."
+        ],
+        "timestamp": "2026-09-30T17:59:34.126198",
+        "saved_to_sheets": false
+      },
+      "timestamp": "2026-09-30T17:59:34.126198"
+    },
+    {
+      "id": "8827a13a",
+      "user_id": "test_user",
+      "type": "EMI Calculation",
+      "summary": "Principal: \u20b9500,000 | EMI: \u20b916,251/mo | Total Repayment: \u20b9585,044",
+      "result_badge": "\u20b916,251/mo",
+      "badge_color": "info",
+      "data": {
+        "monthly_emi": 16251.22,
+        "principal_amount": 500000.0,
+        "total_interest": 85043.92,
+        "total_repayment": 585043.92,
+        "interest_to_principal_ratio_percent": 17.01,
+        "tenure_months": 36,
+        "tenure_years": 3.0,
+        "amortization_preview": [
+          {
+            "month": 1,
+            "principal_paid": 11876.22,
+            "interest_paid": 4375.0,
+            "total_payment": 16251.22,
+            "remaining_balance": 488123.78
+          },
+          {
+            "month": 2,
+            "principal_paid": 11980.14,
+            "interest_paid": 4271.08,
+            "total_payment": 16251.22,
+            "remaining_balance": 476143.64
+          },
+          {
+            "month": 3,
+            "principal_paid": 12084.96,
+            "interest_paid": 4166.26,
+            "total_payment": 16251.22,
+            "remaining_balance": 464058.68
+          },
+          {
+            "month": 4,
+            "principal_paid": 12190.71,
+            "interest_paid": 4060.51,
+            "total_payment": 16251.22,
+            "remaining_balance": 451867.97
+          },
+          {
+            "month": 5,
+            "principal_paid": 12297.38,
+            "interest_paid": 3953.84,
+            "total_payment": 16251.22,
+            "remaining_balance": 439570.59
+          },
+          {
+            "month": 6,
+            "principal_paid": 12404.98,
+            "interest_paid": 3846.24,
+            "total_payment": 16251.22,
+            "remaining_balance": 427165.61
+          },
+          {
+            "month": 7,
+            "principal_paid": 12513.52,
+            "interest_paid": 3737.7,
+            "total_payment": 16251.22,
+            "remaining_balance": 414652.09
+          },
+          {
+            "month": 8,
+            "principal_paid": 12623.01,
+            "interest_paid": 3628.21,
+            "total_payment": 16251.22,
+            "remaining_balance": 402029.08
+          },
+          {
+            "month": 9,
+            "principal_paid": 12733.47,
+            "interest_paid": 3517.75,
+            "total_payment": 16251.22,
+            "remaining_balance": 389295.61
+          },
+          {
+            "month": 10,
+            "principal_paid": 12844.88,
+            "interest_paid": 3406.34,
+            "total_payment": 16251.22,
+            "remaining_balance": 376450.73
+          },
+          {
+            "month": 11,
+            "principal_paid": 12957.28,
+            "interest_paid": 3293.94,
+            "total_payment": 16251.22,
+            "remaining_balance": 363493.45
+          },
+          {
+            "month": 12,
+            "principal_paid": 13070.65,
+            "interest_paid": 3180.57,
+            "total_payment": 16251.22,
+            "remaining_balance": 350422.8
+          }
+        ],
+        "timestamp": "2026-09-30T17:59:34.118003",
+        "saved_to_sheets": false,
+        "annual_rate": 10.5
+      },
+      "timestamp": "2026-09-30T17:59:34.118003"
+    },
+    {
+      "id": "c2b2dd86",
+      "user_id": "test_user",
+      "type": "Loan Eligibility",
+      "summary": "Eligible - Est Loan: \u20b9800,000 | EMI: \u20b920,003",
+      "result_badge": "Low Risk",
+      "badge_color": "success",
+      "data": {
+        "eligible": true,
+        "estimated_loan_amount": 800000.0,
+        "estimated_emi": 20003.14,
+        "dti": 8.42,
+        "foir": 29.48,
+        "net_disposable_income": 41996.86,
+        "risk_level": "Low",
+        "max_eligible_emi": 44250.0,
+        "approval_probability_percent": 92.0,
+        "reasons": [
+          "Combined debt obligations (FOIR: 29.48%) are well within the recommended limit of 55%.",
+          "Excellent credit score (760) satisfies prime underwriting guidelines.",
+          "Comfortable post-EMI disposable surplus of \u20b941,996.86 per month.",
+          "Stable employment profile with 3.0 years in Salaried."
+        ],
+        "recommendations": [
+          "Maintain timely EMI payments to preserve your favorable borrowing terms.",
+          "Compare offers across multiple lenders to negotiate processing fee waivers."
+        ],
+        "factors": {
+          "monthly_income": 95000.0,
+          "existing_monthly_debt": 8000.0,
+          "estimated_emi": 20003.14,
+          "dti_percent": 8.42,
+          "foir_percent": 29.48,
+          "benchmark_max_foir": 55.0,
+          "net_disposable_income": 41996.86,
+          "risk_score_points": 0,
+          "borrower_end_age": 34.0
+        },
+        "timestamp": "2026-09-30T17:59:12.998317",
+        "saved_to_sheets": false
+      },
+      "timestamp": "2026-09-30T17:59:12.998317"
+    },
+    {
+      "id": "f036636a",
+      "user_id": "test_user",
+      "type": "Credit Analysis",
+      "summary": "Score: 750 (Very Good) | Utilization: 22.5%",
+      "result_badge": "Very Good",
+      "badge_color": "success",
+      "data": {
+        "credit_score": 750,
+        "credit_health_category": "Very Good",
+        "rating_color": "#10b981",
+        "credit_utilization_percent": 22.5,
+        "dti": 20.0,
+        "payment_history_percent": 98.0,
+        "key_factors": [
+          {
+            "name": "Payment History",
+            "impact": "High Positive",
+            "status": "Exceptional",
+            "description": "Your on-time payment track record is stellar (98.0%). This forms ~35% of traditional credit scoring.",
+            "recommendation": "Keep automated payments active so you never miss a billing due date."
+          },
+          {
+            "name": "Credit Card Utilization",
+            "impact": "Neutral",
+            "status": "Moderate",
+            "description": "Utilization is at 22.5%. It is within normal boundaries but approaching the 30% benchmark.",
+            "recommendation": "Aim to pay down card balances before the statement generation date."
+          },
+          {
+            "name": "Recent Inquiries",
+            "impact": "Positive",
+            "status": "Low Activity",
+            "description": "1 inquiry in recent months. Shows you are not rate-shopping frantically.",
+            "recommendation": "Only apply for fresh credit lines when genuinely necessary."
+          },
+          {
+            "name": "Credit Mix & Accounts",
+            "impact": "Positive",
+            "status": "Balanced",
+            "description": "Active mix of 3 cards and 2 loans shows manageable variety.",
+            "recommendation": "Keep oldest credit accounts open to preserve average account age."
+          }
+        ],
+        "summary": "Your credit profile sits in the Very Good category with a score of 750. Payment reliability is at 98.0% with a credit utilization of 22.5%. Overall credit health indicates strong eligibility potential for prime interest rates.",
+        "strengths": [
+          "Impeccable on-time payment record (98.0%)",
+          "Minimal hard inquiries in the past year.",
+          "Healthy and manageable active credit footprint (5 active accounts)."
+        ],
+        "areas_for_improvement": [
+          "Continue maintaining disciplined payment habits."
+        ],
+        "simulation_tips": [
+          "Ask card issuers for an eligible credit limit increase without taking a hard inquiry to reduce utilization."
+        ],
+        "timestamp": "2026-09-30T17:59:12.985830",
+        "saved_to_sheets": false
+      },
+      "timestamp": "2026-09-30T17:59:12.985830"
+    },
+    {
+      "id": "878d4fb5",
+      "user_id": "test_user",
+      "type": "EMI Calculation",
+      "summary": "Principal: \u20b9500,000 | EMI: \u20b916,251/mo | Total Repayment: \u20b9585,044",
+      "result_badge": "\u20b916,251/mo",
+      "badge_color": "info",
+      "data": {
+        "monthly_emi": 16251.22,
+        "principal_amount": 500000.0,
+        "total_interest": 85043.92,
+        "total_repayment": 585043.92,
+        "interest_to_principal_ratio_percent": 17.01,
+        "tenure_months": 36,
+        "tenure_years": 3.0,
+        "amortization_preview": [
+          {
+            "month": 1,
+            "principal_paid": 11876.22,
+            "interest_paid": 4375.0,
+            "total_payment": 16251.22,
+            "remaining_balance": 488123.78
+          },
+          {
+            "month": 2,
+            "principal_paid": 11980.14,
+            "interest_paid": 4271.08,
+            "total_payment": 16251.22,
+            "remaining_balance": 476143.64
+          },
+          {
+            "month": 3,
+            "principal_paid": 12084.96,
+            "interest_paid": 4166.26,
+            "total_payment": 16251.22,
+            "remaining_balance": 464058.68
+          },
+          {
+            "month": 4,
+            "principal_paid": 12190.71,
+            "interest_paid": 4060.51,
+            "total_payment": 16251.22,
+            "remaining_balance": 451867.97
+          },
+          {
+            "month": 5,
+            "principal_paid": 12297.38,
+            "interest_paid": 3953.84,
+            "total_payment": 16251.22,
+            "remaining_balance": 439570.59
+          },
+          {
+            "month": 6,
+            "principal_paid": 12404.98,
+            "interest_paid": 3846.24,
+            "total_payment": 16251.22,
+            "remaining_balance": 427165.61
+          },
+          {
+            "month": 7,
+            "principal_paid": 12513.52,
+            "interest_paid": 3737.7,
+            "total_payment": 16251.22,
+            "remaining_balance": 414652.09
+          },
+          {
+            "month": 8,
+            "principal_paid": 12623.01,
+            "interest_paid": 3628.21,
+            "total_payment": 16251.22,
+            "remaining_balance": 402029.08
+          },
+          {
+            "month": 9,
+            "principal_paid": 12733.47,
+            "interest_paid": 3517.75,
+            "total_payment": 16251.22,
+            "remaining_balance": 389295.61
+          },
+          {
+            "month": 10,
+            "principal_paid": 12844.88,
+            "interest_paid": 3406.34,
+            "total_payment": 16251.22,
+            "remaining_balance": 376450.73
+          },
+          {
+            "month": 11,
+            "principal_paid": 12957.28,
+            "interest_paid": 3293.94,
+            "total_payment": 16251.22,
+            "remaining_balance": 363493.45
+          },
+          {
+            "month": 12,
+            "principal_paid": 13070.65,
+            "interest_paid": 3180.57,
+            "total_payment": 16251.22,
+            "remaining_balance": 350422.8
+          }
+        ],
+        "timestamp": "2026-09-30T17:59:12.979677",
+        "saved_to_sheets": false,
+        "annual_rate": 10.5
+      },
+      "timestamp": "2026-09-30T17:59:12.979677"
+    }
+  ]
+}
